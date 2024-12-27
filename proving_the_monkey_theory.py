@@ -1,7 +1,7 @@
 from random import randint
 print("""Monkey Theorem states that in an infinite amount of time, the monkey that is sitting by the typewriter, pressing random keys, will eventually write the full text for Hamlet (or whatever, it doesn't really matter) without any mistakes.
 The key factor here is infinity.
-Infinite time also means that there will an infinite amount of key presses, in other words, experiments.
+Infinite time also means that there will be an infinite amount of key presses, in other words, experiments.
 And we can prove, that after an infinite amount of experiments, the "probability" will become "distribution" among all the results of all the experiments.
 
 Let's take a simple example - a coin flip.
@@ -10,7 +10,7 @@ We can replace a coin flip with a random number generator from 1 to 2 inclusivel
 It will still be a 50/50 chance, it is just simpler to represent in Python.
 So, let's say we start generating a random integer number from 1 to 2 inclusively and write down the results in the list.
 We would then see the distribution of ones in that list.
-However, the distribution will vary depending on the amount of experiments. (And also as the randomness takes place here, extreme results like all ones or all twos in for example 10,000 experiments are possible and will hugely affect the research as a whole. But this is mostly taken care of, that will be later explained)
+However, the distribution will vary depending on the amount of experiments. (Also as the randomness takes place here, extreme results like all ones or all twos in for example 10,000 experiments are possible and will hugely affect the research as a whole. But this is mostly taken care of, that will be later explained)
 So, as an example, let's say we only generate one number and put it in the list. The list will contain only one 1 or 2, nothing more. So the distribution of ones in that list will be either 100% or 0%, which is nowhere near close to a percentage chance of 50%.
 But if we increase the amount of experiments and generate more and more numbers, this distribution will get closer and closer to the 50% we need.""")
 print("""Here is how it works:
